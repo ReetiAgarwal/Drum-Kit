@@ -1,0 +1,42 @@
+body{
+    background-image:linear-gradient(205deg,rgb(152, 9, 9),rgb(234, 43, 43));
+    background-repeat: no-repeat;
+    height:550px;
+}
+
+h1{
+    text-align:center;
+    padding:80px 0 40px;
+    color:White;
+    font-size:70px;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    transition:all ease-in-out;
+}
+
+.box{
+    height:40px;
+    width:40px;
+    background-color:white;
+    margin:40px 40px;
+    padding:20px;
+    text-align:center;
+    border:5px solid rgb(48, 6, 6);
+    border-radius:8px;
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(129, 14, 14);
+}
+
+.box:hover{
+    cursor:pointer;
+}
+
+.pressed{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity:0.8;
+}
